@@ -1,0 +1,9 @@
+# rpi-pcspeaker by jsubirat
+#
+# Enables the user to reproduce musical notes with a Raspberry Pi and a classical PC speaker, depending on the introduced key.
+# 
+# Connections:
+#       * Speaker + - GPIO 23 (can be modified in SPEAKERPORT variable)
+#       * Speaker - - GND
+#
+# The polarity doesn't matter as long as it is a classical PC speaker. Note that GPIO v0.5.2a is required to have software-PWM.
