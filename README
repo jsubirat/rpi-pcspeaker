@@ -2,6 +2,8 @@
 #
 # Enables the user to reproduce musical notes with a Raspberry Pi and a classical PC speaker, depending on the introduced key.
 # 
+# Prerequisite: apt-get install python-dev python-rpi.gpio 
+#
 # Connections:
 #       * Speaker + - GPIO 23 (can be modified in SPEAKERPORT variable)
 #       * Speaker - - GND
